@@ -535,6 +535,7 @@ body {
   gap: var(--gap-2xl);
   padding: 6rem 0;
   position: relative;
+
 }
 
 .projetos__conteudo {
@@ -564,7 +565,7 @@ body {
   scroll-behavior: smooth;
   box-sizing: border-box;
   -ms-overflow-style: none;
-  scrollbar-width: none;
+  scrollbar-width: thin;
   gap: var(--gap-l);
   padding: var(--padding-xs) 0;
   width: 100%;
