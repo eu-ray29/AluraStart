@@ -636,6 +636,7 @@ body {
       flex-direction: column;
       gap: 3rem;
     }
+
   }
 }
 
@@ -692,6 +693,10 @@ body {
   padding: var(--padding-m);
   border-radius: 10px;
 
+  @media (max-width:425px) {
+        width: 100%;
+  }
+
   &>h3 {
     color: var(--cor-titulo-vermelho);
     font-size: var(--fonte-size-m);
@@ -735,6 +740,10 @@ body {
 
     &::placeholder {
       color: var(--cor-texto);
+    }
+
+    @media (max-width:425px) {
+      width: 95%;
     }
   }
 }
